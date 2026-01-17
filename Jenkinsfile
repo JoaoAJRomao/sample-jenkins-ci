@@ -5,6 +5,10 @@ pipeline {
     IMAGE = "sample-python-ci:${env.BUILD_NUMBER}"
   }
 
+  withEnv(['DOCKER_HOST=']) {
+    sh 'docker ps'
+  }
+
   stages {
     stage('Checkout') {
       steps {

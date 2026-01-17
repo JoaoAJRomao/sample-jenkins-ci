@@ -1,0 +1,40 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+compose*.yaml
+
+# Local environment variables
+.env
+
+# IDE/OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Node.js
+**/node_modules/
+**/dist/
+npm-debug.log
+.cache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Jenkins
+jenkins_home/workspace/
+jenkins_home/logs/
+jenkins_home/secrets/
